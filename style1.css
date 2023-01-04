@@ -1,0 +1,80 @@
+body
+{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-image:url("bg.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.Sign-up
+{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background-color: transparent;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+
+.Sign-up h1
+{
+    color:lightpink;
+    margin-bottom: 30px;
+    
+}
+.input-box
+{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+.buddha{
+    width: 100px;
+    height:  100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+button{
+    color:lightskyblue;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    outline:none;
+    border: none;
+    
+}
+.sign-btn{
+    background-color: lightpink;
+    
+}
+.sign-btn{
+    background-color: lightpink;
+}
+a{
+    text-decoration: :none;
+}
+hr{
+    margin-top: 20px;
+    width:80%;
+    
+}
+.or{
+    background-color:lightgray;
+    width:30px;
+    margin: -19px auto 10px;
+}
+img{
+     width: 100px;
+     border-radius: 50%;
+    margin-top: -50px;
+}

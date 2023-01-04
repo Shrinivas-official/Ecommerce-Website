@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> All Products - FarMart</title>
+        <link rel="stylesheet" href="file1s.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        
+    </head>
+    <body>
+        <div class="header"></div>
+        <div class="container">
+               <div class="navbar">
+            <div class="logo">
+                <img src="main%20logo.jpeg" widht="50px" height="50px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                   <li><a href="file1.html">Home</a></li>
+                    <li><a href="file2.html">Products</a></li>
+                    <li><a href="fileabout.html">About</a></li>
+                    <li><a href="filecontact.html">Contact</a></li>
+                     <li><a href="file5.php">Account</a></li>
+                </ul>
+            </nav>
+                   <img src="cart.jpeg" onclick="location.href ='fileview.php';" style="cursor: pointer;" width="30px" height="30px">
+                   <img src="menu-rounded%20(1).png" class="menu-icon" 
+                        onclick="menutoggle()">
+        </div>
+            </div>
+             
+        
+         <div class="small-container">
+             <div class="row row-2">
+             <h2> All Products</h2>
+                 <select onchange="la(this.value)">
+                     <option value="file2.html">All Products</option>
+                     <option value="file7.html">Vegetables</option>
+                     <option value="file8.html">Fruits</option>
+                     <option value="file12.html">Livestocks</option>
+                     <option value="file11.html">Dairy Products</option>
+                     <option value="filecombo.html">Combo offers</option>
+                 </select>
+             </div>
+     
+     
+         
+     </div>
+        
+     <div class="small-container">
+     <div class="row">
+         <div class="col-4">
+             <a href="filecurd.html">
+             <img src="curd.jpg">
+             
+             <h4>Curd</h4>
+         </a>
+             <div class="rating">
+             <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+             </div>
+             <p>Rs.12 per Dozen</p>
+         </div>
+         <div class="col-4">
+             <a href="fileleaf.html">
+             <img src="leaf1.jpg">
+            <h4>Banana Leaf</h4>
+                 </a>
+             <div class="rating">
+             <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+             </div>
+             <p>Rs.12 per Dozen</p>
+         </div>
+         <div class="col-4">
+             <a href="filecheese.html">
+             <img src="cheese.jpg">
+             <h4>Cheese</h4>
+                 </a>
+             <div class="rating">
+             <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+             </div>
+             <p>Rs.75 per 100g</p>
+         </div>
+         <div class="col-4">
+             <a href="filekudi.html">
+             <img src="kudi.png">
+             <h4>Saathukudi</h4>
+                 </a>
+             <div class="rating">
+             <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+             </div>
+             <p>Rs.40 per Kg</p>
+         </div>
+         <div class="col-4">
+             <a href="filesweet.html">             
+                 <img src="sweet%20potato.jpg">
+             <h4>Sweet Potato</h4>
+              </a>
+
+                 <div class="rating">
+             <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+             </div>
+             <p>Rs.12 per Dozen</p>
+         </div>
+         
+         
+         <div class="col-4">
+             <a href="filefinger.html">
+             <img src="finger.jpg">
+             <h4>Lady's Finger</h4></a>
+             <div class="rating">
+             <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+             </div>
+             <p>Rs.12 per Dozen</p>
+         </div>
+          <div class="col-4">
+              <a href="filemutton.html">
+             <img src="mutton.jpeg">
+             <h4>Mutton</h4></a>
+             <div class="rating">
+             <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+             </div>
+             <p>Rs.250 per KG</p>
+         </div>
+         
+          <div class="col-4">
+              <a href="fileonion.html">
+             <img src="onion.jpg">
+             <h4>Mango</h4></a>
+             <div class="rating">
+             <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+             </div>
+             <p>Rs.250 per KG</p>
+         </div>
+         
+         
+          <div class="col-4">
+              <a href="filemango.html">
+             <img src="mangoo.jpg">
+             <h4>Mango</h4></a>
+             <div class="rating">
+             <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+             </div>
+             <p>Rs.250 per KG</p>
+         </div>
+        
+         
+ <div class="col-4">
+     <a href="filedragon.html">
+             <img src="dfruit.jpeg">
+         <h4>Dragon Fruit</h4></a>
+             <div class="rating">
+             <i class="fa fa-star"></i>
+           
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+             </div>
+             <p>Rs.120 per KG</p>
+         </div>
+         <div class="col-4">
+             <a href="filegoa.html">
+             <img src="guava.jpg">
+             <h4>Guava</h4></a>
+             <div class="rating">
+             <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+             </div>
+             <p>Rs.30 per KG</p>
+         </div>
+         <div class="col-4">
+             <a href="fileplum.html">
+             <img src="plum.jpg">
+             <h4>Plum</h4></a>
+             <div class="rating">
+             <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+             </div>
+             <p>Rs.100 per L</p>
+         </div>
+         </div>
+        
+             </div>
+        
+        
+        <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Buy our Products</h3>
+                    <p>Bringing the purest products to your hands.</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="main%20logo.jpeg">
+                    <p>Brought from the hands of GOD!</p>
+                </div>
+            </div>
+            <p  class="copyrights">Copyrights 2022 @ Team Trio</p>
+            </div>
+        </div>
+        <script>
+            var MenuItems=document.getElementById("MenuItems");
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+            
+        </script>
+         <script>
+        function la(src){
+            window.location=src;
+        }
+        </script>
+    </body>
+
+</html>

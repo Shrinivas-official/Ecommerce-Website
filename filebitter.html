@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> All Products - FarMart</title>
+        <link rel="stylesheet" href="file1s.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <div class="header"></div>
+        <div class="container">
+               <div class="navbar">
+            <div class="logo">
+                <img src="main%20logo.jpeg" widht="50px" height="50px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                   <li><a href="file1.html">Home</a></li>
+                    <li><a href="file2.html">Products</a></li>
+                    <li><a href="fileabout.html">About</a></li>
+                    <li><a href="filecontact.html">Contact</a></li>
+                     <li><a href="fileprofile.php">Account</a></li>
+                </ul>
+            </nav>
+                   <img src="cart.jpeg"  onclick="location.href ='fileview.php';" style="cursor: pointer;"width="30px" height="30px">
+                   <img src="menu-rounded%20(1).png" class="menu-icon" 
+                        onclick="menutoggle()">
+        </div>
+            </div>
+<!------------Single products------------>       
+             <div class="small-container single-product">
+                 <div class="row">
+                     <div class="col-2">
+                             <img src="bitter%20(2).jpg" width="100%" id="ProductImg">
+                         <div class="small-img-row">
+                             <div class="small-img-col">
+                                 <img src="bitter%20(2).jpg" width="100%" class="small-img">
+                             </div>
+                             <div class="small-img-col">
+                             <img src="bitter%20(1).jpg" width="100%" class="small-img">
+                             </div>
+                             <div class="small-img-col">
+                             <img src="bitter%20(3).jpg" width="100%" class="small-img">
+                             </div>
+                            
+                                  </div>
+                           
+                        
+                            
+                     </div>
+                     <div class="col-2">
+                         <p>Products</p>
+                         <h1>Bitter guard</h1>
+                         <h4>Rs.55 per KG</h4>
+                         <select>
+                         <option>Select Amount</option>
+                         <option>1 KG</option>
+                         <option>1.5 KG</option>
+                         <option>2 KG</option>
+                         <option>2.5 KG</option>
+                         <option>3 KG</option>
+                         </select>
+                       <!-- changes -->
+                         <form action="fileview.php" method='post'>
+                         <input type="number" value="1" name="qty">
+                         <input type="hidden" value="Bitter gourd" name="productname">
+                         <input type="hidden" value="55"  name="productprice">
+                         <input type="hidden" value="bitter%20(1).jpg" name="productimgname">
+                         <input type="submit" value="Add to Basket" name="submit" class="btn">  
+                        </form>    
+                         <!-- changes -->
+         
+         
+          <h3>Product Details</h3>
+                         <br>
+                         <p>* Bitter guard has cancer fighting properties. <br>* It decreases cholestrol level.<br>* It aids weight loss. </p>
+                         
+                     </div>
+                 </div>
+        </div>
+         
+         
+        <!-----title---->
+        <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            </div>
+        </div>
+        <!------title----->
+     <div class="small-container">
+     <div class="row">
+        <div class="col-4">
+            <a href="fileonion.html">
+             <img src="onion.jpg">
+                <h4>Onion</h4></a>
+             <div class="rating">
+             <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+             </div>
+             <p>Rs.40 per KG</p>
+         </div>
+         
+         
+         <div class="col-4">
+             <a href="filebeet.html">
+             <img src="beet.jpg">
+                 <h4>Beet root</h4></a>
+             <div class="rating">
+             <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+             </div>
+             <p>Rs.65 per KG</p>
+         </div>
+          
+         
+         
+         <div class="col-4">
+             <a href="filecori.html">
+             <img src="cori.jpg">
+                 <h4>Coriander</h4></a>
+             <div class="rating">
+             <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+             </div>
+             <p>Rs.10 per BUNDLE</p>
+         </div>
+          
+         
+         <div class="col-4">
+             <a href="filecurry.html">
+             <img src="curry.jpg">
+                 <h4>Curry leaves</h4></a>
+             <div class="rating">
+             <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star"></i>
+                 <i class="fa fa-star-o"></i>
+             </div>
+             <p>Rs.10 per BUNDLE</p>
+         </div>
+          
+         
+         </div>
+        
+             </div>
+        
+        
+        <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Buy our Products</h3>
+                    <p>Bringing the purest products to your hands.</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="main%20logo.jpeg">
+                    <p>Brought from the hands of GOD!</p>
+                </div>
+            </div>
+            <p  class="copyrights">Copyrights 2022 @ Team Trio</p>
+            </div>
+        </div>
+        <script>
+            var MenuItems=document.getElementById("MenuItems");
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+            
+        </script>
+        
+        <!--------------Js for product gallery----------->
+        <script>
+            var ProductImg = document.getElementById("ProductImg");
+            var SmallImg = document.getElementsByClassName("small-img");
+            SmallImg[0].onclick = function(){
+                ProductImg.src=SmallImg[0].src;
+            }
+             SmallImg[1].onclick = function(){
+                ProductImg.src=SmallImg[1].src;
+            }
+              SmallImg[2].onclick = function(){
+                ProductImg.src=SmallImg[2].src;
+            }
+        </script>
+    </body>
+
+</html>

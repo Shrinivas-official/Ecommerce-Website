@@ -1,0 +1,38 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Browser</title>
+</head>
+
+<body>
+<div class="container">
+    <button  type="submit" class="btn" onclick="openPopup()">Tap to Complete</button>
+  <div class="popup" id="popup">
+    <img src="Checkmark.gif">
+      <h2>THANK YOU!</h2>
+      <p>Happy to be part of your healthy eating!Your order will be delivered ASAP&#128515;!</p>
+      <button type="button" onclick="closePopup()">Ok</button>
+   </div>
+</div>
+    <script>
+      let popup= document.getElementById("popup");
+
+      function openPopup(){
+       popup.classList.add("open-popup");
+      }
+      function closePopup(){
+       popup.classList.remove("open-popup");
+      }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Custom SElect Menu</title>
+    <link rel="stylesheet" href="drop.css">
+    </head>
+    <body>
+    <div class="hero">
+        <div class="selector">
+        <div id="selectField">
+            <p id="selectText">Select Varieties</p>
+            <img src="down-arrow.png" id="arrowIcon">
+            </div>
+            <ul id="list" class="hide">
+            <li class="options">
+                <img src="vegetable.png">
+                <p>Vegetables</p>
+                </li>
+                <li class="options">
+                <img src="fruits.png">
+                <p>Fruits</p>
+                </li>
+                <li class="options">
+                <img src="dairy.png">
+                <p>Dairy Products</p>
+                </li>
+                <li class="options">
+                <img src="mortar.png">
+                <p>Herbs</p>
+                </li>
+                <li class="options">
+                <img src="animal.png">
+                <p>Livestocks</p>
+                </li>
+
+            </ul>
+        </div>
+        </div>
+        <script>
+        var selectField=document.getElementById("selectField");
+            var selectText=document.getElementById("selectText");
+            var options=document.getElementsByClassName("options");
+            var list=document.getElementById("list");
+            var arrowIcon=document.getElementById("arrowIcon");
+            selectField.onclick=function(){
+                list.classList.toggle("hide");
+                arrowIcon.classList.toggle("rotate");
+            }
+            for(option of options){
+                option.onclick = function(){
+                    selectText.innerHTML=this.textContent;
+                    list.classList.toggle("hide");
+                     arrowIcon.classList.toggle("rotate");
+            
+                }
+            }
+        </script>
+    </body>
+</html>
